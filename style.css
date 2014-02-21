@@ -1,0 +1,291 @@
+﻿@charset "utf-8";
+
+html,body,h1,h2,h3,h4,h5,p,dl,dt,dd,ul,ol,li,table,textarea,iframe,form,pre {
+	margin:0;
+	padding:0;
+	font-size:100%;
+}
+a{
+	color: #000;
+}
+li{
+	text-decoration: none;
+}
+body{
+	font-family: 'Hiragino Kaku Gothic ProN', Meiryo, 'MS PGothic', Sans-serif;
+	line-height: 1.5;
+	font-weight: normal;
+	font-size: 14px;
+	-webkit-text-size-adjust: 100%;
+}
+.flo-l{
+	float: left;
+}
+.flo-r{
+	float: right;
+}
+header{
+	height: 50px;
+	background: #212121;
+}
+header .header_logo{
+	margin-top: 10px;
+}
+header .social{
+	float: left;
+}
+.main{
+	width: 1000px;
+	overflow: hidden;
+	margin:auto;
+}
+.main .eyecatch_necogirl{
+	float: left;
+	margin: 5px 0 0 -3px;
+}
+
+.main .eyecatch_desc{
+	float: left;
+	margin-top: 34px;
+}
+#eyecatch{
+	width: 100%;
+	height: 309px;
+	background:url("images/eyecatch-bg.png") repeat-x;
+}
+#member{
+	background: #EEEBE7;
+}
+.main .member-table{
+	background: #ffffff;
+	width: 9964px;
+	border: solid 2px #E3D2A7;
+	height: 210px;
+	overflow: hidden;
+	margin: 50px 0;
+}
+.main .member-table .left{
+	float: left;
+	height: 100%;
+	width: 210px;
+	border-right: solid 2px #E3D2A7;
+}
+.main .box{
+	text-align: center;
+	width: 11em;
+	padding: 44px 28px;
+}
+.member-table .box p{
+	margin-top: 20px;
+}
+.main .right{
+	float: left;
+	width: 782px;
+	height: 100%;
+}
+.main .neco-float{
+	float: left;
+	text-align: center;
+	margin: 7px 13px;
+}
+#ranking{
+	background: #F8F7F7;
+	width: 100%;
+	height: auto;
+}
+ #ranking .main .subtitle{
+	margin: 30px 0;
+	text-align: center;
+}
+
+#ranking .main article{
+	overflow: hidden;
+	background: #ffffff;
+	height: auto;
+	width: auto;
+
+	-moz-box-shadow: 0 0 1px #000;
+-webkit-box-shadow: 0 0 1px #000;
+}
+#ranking .main #no2{
+	margin-top: 85px;
+
+}
+#ranking .main #no3{
+	margin-top: 85px;
+	margin-bottom: 150px;
+}
+#ranking .main .shop_name{
+	overflow: hidden;
+	height: 76px;
+	width: 100%;
+	border-bottom:  solid 2px #174EC7;
+}
+.main .shop_name h3{
+	font-size: 24px;
+	margin: 20px 0 18px 24px;
+}
+
+.main .shop_name h3 span{
+	font-size: 36px;
+	font-weight: bold;
+}
+.main .shop_name .rank_member{
+	margin: 20px 10px 0 10px;
+}
+.main .shop_name .osusume{
+	width: 6em;
+	margin: 28px 0;
+	font-size: 12px;
+}
+#ranking .main .content{
+	margin: 30px 0 0 30px;
+	overflow: hidden;
+	
+}
+#ranking .content .right{
+	height: auto;
+	overflow: hidden;
+	width: 570px;
+}
+.content .right .kimete{
+	width: 350px;
+	height: 220px;
+	background: url(images/hukidashi-bg.png) no-repeat;
+}
+.content .kimete .kimete_img{
+	margin: 20px 0 20px 45px;
+}
+
+.content .kimete p{
+	width: 260px;
+	margin: 0 0  35px 30px;
+	line-height: 1.4;
+}
+
+#ranking .girl .oshimen_img{
+	margin-left:25px;
+
+}
+
+#ranking .right .what_site{
+	margin: 20px 0 0 0;
+}
+#ranking .right .mini_fuki{
+	overflow: hidden;
+	width: 570px;;
+}
+#ranking .mini_fuki .minifukiLeft{
+	float: left;
+	width: 70px;
+	text-align: center;
+	margin-top: 10px;
+}
+#ranking .mini_fuki .minifukiRight{
+	float: left;
+	width: 462px;
+	background: url(images/miniFukidashi.png) no-repeat;
+}
+#ranking .mini_fuki .minifukiRight .minifuki_cont{
+	width: 30em;
+	padding: 15px 24px;
+}
+#ranking .content .button{
+	margin-top: 20px;
+}
+#ranking .content .button{
+	text-align: center;
+	margin-top: 10px;
+}
+#ranking .content .left{
+	height: auto;
+	width: 369px;
+	margin-right: 30px;
+}
+#ranking .content .review{
+	margin-top: 15px;
+	
+}
+#ranking .content .review ul{
+	display: block;
+	overflow: hidden;
+	margin-bottom: 5px;
+	background: #f6f6f6;
+	width: 369px;
+}
+#ranking .main .content .left .review ul li.left{
+	width: 130px;
+	padding: 10px 3px 10px 15px;
+}
+#ranking .main .content .left .review ul li.right{
+	width: 176px;
+	padding: 10px 0;
+}
+#ranking .ichioshi{
+	overflow: hidden;
+	margin: auto;
+	text-align: center;
+}
+
+#ranking .ichioshi .button{
+	margin: 10px 0 35px 0;
+}
+#ranking #no2 .ichioshi .button{
+	margin: 20px 0 35px 0;
+}
+#ranking .ichioshi_img{
+	margin-top: 30px;
+}
+
+#ranking .ichioshi .ichioshi_lr{
+	height: 160px;
+	margin: auto;
+}
+#ranking .ichioshi_wrapper{
+	width: 420px;
+	margin: 0 40px;
+}
+#ranking .ichioshi .ichioshi_title{
+	text-align: left;
+	padding: 20px 0 0px 120px;
+}
+#ranking .ichioshi .ichioshi_body{
+	text-align: left;
+	width: 18em;
+	padding: 15px 0 20px 140px;
+}
+#ranking .ichioshi .no2 .ichioshi_title{
+	padding: 30px 0 0 130px;
+}
+#ranking .ichioshi .no2 .ichioshi_body{
+	padding: 15px 0 20px 135px;
+}
+#ranking .ichioshi .no4 .ichioshi_title{
+	padding: 30px 0 0 130px;
+}
+#ranking .ichioshi .no4 .ichioshi_body{
+	padding: 15px 0 20px 135px;
+}
+#ranking .ichioshi .no1{
+	background: url(images/comment1.png) no-repeat;
+}
+#ranking .ichioshi .no2{
+	background: url(images/comment2.png) no-repeat;
+}
+#ranking .ichioshi .no3{
+	background: url(images/comment3.png) no-repeat;
+}
+#ranking .ichioshi .no4{
+	background: url(images/comment4.png) no-repeat;
+}
+footer{
+	background: #425A8F;
+	height: 70px;
+	overflow: hidden;
+}
+footer p{
+	text-align: center;
+	margin: 25px;
+	font-size: 13px;
+	color: white;
+}
